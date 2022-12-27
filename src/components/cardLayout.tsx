@@ -2,11 +2,6 @@ import { Member } from '../interfaces';
 import { Card, RatingCard, CurrencyCard } from './card';
 import { RATING } from '../enums';
 
-// function starCount(r: RATING): number {
-//   //console.log(RATING[key])
-//   return 1;
-// }
-
 const getRating = (r: string) => {
   switch (r) {
     case 'VL':
@@ -24,14 +19,6 @@ const getRating = (r: string) => {
   }
 };
 
-const currency = (amount: number) => {
-  let UKpounds = Intl.NumberFormat('en-GB', {
-    style: 'currency',
-    currency: 'GBP',
-  });
-  return UKpounds.format(amount);
-};
-
 const CardLayout = ({
   lengthOfMembership,
   premiumIncome,
@@ -44,7 +31,7 @@ const CardLayout = ({
     <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Card title="Length of membership" description={lengthOfMembership} />
       <CurrencyCard title="Premium income" amount={premiumIncome} />
-      <Card title="Claims paid" description={currency(claimsPaid)} />
+      <CurrencyCard title="Claims paid" amount={claimsPaid} />
       <Card title="Last claim date" description={lastClaimDate} />
       <Card title="Enrolment date" description={enrolmentDate} />
       <RatingCard rating={getRating(memberRating)} />

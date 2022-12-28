@@ -7,3 +7,7 @@ My first project learning TypeScript with React. A simple app that renders card 
 - [Create React App](https://create-react-app.dev/docs/adding-typescript/)
 - TypeScript
 - [Tailwind CSS](https://tailwindcss.com/)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details

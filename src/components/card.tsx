@@ -1,13 +1,13 @@
 import { CardProps, RatingCardProps, CurrencyCardProps } from '../interfaces';
 import IconRating from './iconRating';
 
-// styles for the outer card
+// Tailwind style for the outer card
 const cardOuter: string =
   'h-36 border border-gray-200 px-6 py-6 bg-gray-100/50';
-// styles for the card title
+// Tailwind style for the card title
 const cardTitle: string =
   'mb-2 text-gray-500 font-bold text-sm uppercase tracking-wider';
-// styles for the card description
+// Tailwind style for the card description
 const cardDescription: string = 'text-gray-700 font-bold text-xl';
 
 const Card = ({ title, description }: CardProps) => {

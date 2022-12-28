@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card-outer {
+    @apply h-36 border border-gray-200 px-6 py-6 bg-gray-100/50;
+  }
+  .card-title {
+    @apply mb-2 text-gray-500 font-bold text-sm uppercase tracking-wider;
+  }
+  .card-description {
+    @apply text-gray-700 font-bold text-xl;
+  }
+}

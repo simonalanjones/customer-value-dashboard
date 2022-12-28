@@ -6,4 +6,4 @@ My first project learning TypeScript with React. A simple app that renders card 
 
 - [Create React App](https://create-react-app.dev/docs/adding-typescript/)
 - TypeScript
-- Tailwind CSS
+- [Tailwind CSS](https://tailwindcss.com/)

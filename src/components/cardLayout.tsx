@@ -15,7 +15,7 @@ const getRating = (r: string) => {
     case 'VH':
       return RATING.VH;
     default:
-      return RATING.VL;
+      return RATING.NR;
   }
 };
 

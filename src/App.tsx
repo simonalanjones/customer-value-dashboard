@@ -4,6 +4,7 @@ import SearchBox from './components/searchBox';
 import CardLayout from './components/cardLayout';
 import Header from './components/header';
 import AlertBox from './components/alertBox';
+import DisclosureMessage from './components/disclosureMessage';
 
 function App() {
   const fetchMember = () => {
@@ -40,6 +41,7 @@ function App() {
             memberRating={member.memberRating}
             enrolmentDate={member.enrolmentDate}
           />
+          <DisclosureMessage />
         </>
       )}
     </div>

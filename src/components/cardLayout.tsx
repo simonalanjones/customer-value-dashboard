@@ -1,4 +1,4 @@
-import { Member } from '../interfaces';
+import { CardLayoutProps } from '../interfaces';
 import { Card, RatingCard, CurrencyCard } from './card';
 import { RATING } from '../enums';
 
@@ -26,14 +26,14 @@ const CardLayout = ({
   lastClaimDate,
   memberRating,
   enrolmentDate,
-}: Member) => {
+}: CardLayoutProps) => {
   return (
-    <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+    <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
       <Card title="Length of membership" description={lengthOfMembership} />
+      <Card title="Enrolment date" description={enrolmentDate} />
+      <Card title="Last claim date" description={lastClaimDate} />
       <CurrencyCard title="Premium income" amount={premiumIncome} />
       <CurrencyCard title="Claims paid" amount={claimsPaid} />
-      <Card title="Last claim date" description={lastClaimDate} />
-      <Card title="Enrolment date" description={enrolmentDate} />
       <RatingCard rating={getRating(memberRating)} />
     </div>
   );

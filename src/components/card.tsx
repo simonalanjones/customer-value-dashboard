@@ -29,12 +29,8 @@ const RatingCard = ({ rating }: RatingCardProps) => {
   return (
     <>
       <div className="card-outer">
-        <div className="float-right">
-          <IconRating rating={rating} />
-        </div>
-
-        <h2 className="card-title">Member rating</h2>
-        <p className="card-description">{rating}</p>
+        <h2 className="card-title pb-2">{rating} Member rating</h2>
+        <IconRating rating={rating} />
       </div>
     </>
   );

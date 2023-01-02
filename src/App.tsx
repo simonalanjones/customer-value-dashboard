@@ -24,7 +24,6 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
       {!member && (
         <>
           <div className="container mx-auto flex py-12 items-center flex-col">

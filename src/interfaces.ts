@@ -7,6 +7,16 @@ export interface Member {
   lastClaimDate: string;
   memberRating: string;
   enrolmentDate: string;
+  id: string;
+}
+
+export interface CardLayoutProps {
+  lengthOfMembership: string;
+  premiumIncome: number;
+  claimsPaid: number;
+  lastClaimDate: string;
+  memberRating: string;
+  enrolmentDate: string;
 }
 
 export interface CardProps {

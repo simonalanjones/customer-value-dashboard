@@ -11,7 +11,7 @@ const IconRating = ({ rating }: RatingProps) => {
   const fullStars = [...Array(stars)].map((e, i) => <StarFull key={i} />);
   return (
     <>
-      <div className="flex">
+      <div className="flex justify-center">
         {fullStars}
         {emptyStars}
       </div>

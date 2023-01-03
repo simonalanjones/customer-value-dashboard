@@ -1,8 +1,8 @@
 # Customer Value Dashboard
 
-My first project learning TypeScript with React. A simple app that renders card components to show key data points about a customer's perceived value rating to a business.
+My first project learning TypeScript with React. A simple app that renders card components to show key data points about a customer's perceived value rating to a business. Designed with the Tailwind CSS framework. 
 
-<img src='/public/images/screenshot1.png' />
+
 
 ## Built with
 
@@ -13,3 +13,8 @@ My first project learning TypeScript with React. A simple app that renders card 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Screenshots
+
+<img src='/public/images/screenshot1.png' />
+<img src='/public/images/screenshot2.png' />

@@ -8,9 +8,9 @@ function App() {
   const fetchMember = (id: string) => {
     setMember({
       lengthOfMembership: '17 years',
-      premiumIncome: 5509.55,
-      claimsPaid: 1275.63,
-      lastClaimDate: '27 Nov 19',
+      premiumIncome: 5502.15,
+      claimsPaid: 1375.63,
+      lastClaimDate: '27 Oct 19',
       memberRating: 'L',
       enrolmentDate: '11 May 17',
       id: id,
@@ -27,7 +27,12 @@ function App() {
       {!member && (
         <>
           <div className="container mx-auto flex py-12 items-center flex-col">
-            <img src="/axa-logo.png" alt="logo" width="150" className="mb-6" />
+            <img
+              src="images/axa-logo.png"
+              alt="logo"
+              width="150"
+              className="mb-6"
+            />
             <h1 className="text-6xl text-gray-700 font-bold mb-5 ">
               Customer Value Dashboard
             </h1>
@@ -52,7 +57,7 @@ function App() {
         <>
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <p className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-              <img src="/axa-logo.png" alt="logo" width="50" />
+              <img src="/images/axa-logo.png" alt="logo" width="50" />
               <span className="ml-3 text-xl">Customer Value Dashboard</span>
             </p>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

@@ -2,7 +2,7 @@
 
 My first project learning TypeScript with React. A simple app that renders card components to show key data points about a customer's perceived value rating to a business.
 
-<img src='/public/images/screenshot1.png />
+<img src='/public/images/screenshot1.png' />
 
 ## Built with
 
